@@ -89,7 +89,7 @@ def loginSC():
 		time.sleep(1)
 		login()
 	else:
-		print"\033[1;96m[!] \033[1;91mSalah!!"
+		print"\033[1;96m[!] \033[1;91mSalah Bangsat🖕!!"
 		time.sleep(1)
                 LoginSC()
 
@@ -109,7 +109,7 @@ def login():
 		try:
 			br.open('https://m.facebook.com')
 		except mechanize.URLError:
-			print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
+			print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi Bangsattz"
 			keluar()
 		br._factory.is_html = True
 		br.select_form(nr=0)
@@ -136,7 +136,7 @@ def login():
 				os.system('xdg-open https://www.youtube.com/omaliptv')
 				menu()
 			except requests.exceptions.ConnectionError:
-				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
+				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi Bangsattz🖕"
 				keluar()
 		if 'checkpoint' in url:
 			print("\n\033[1;96m[!] \x1b[1;91mSepertinya akun anda kena checkpoint")
@@ -172,7 +172,7 @@ def menu():
 		time.sleep(1)
 		login()
 	except requests.exceptions.ConnectionError:
-		print"\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
+		print"\033[1;96m[!] \x1b[1;91mTidak ada koneksi Bangsattz🖕"
 		keluar()
 	os.system("clear")
 	print logo
